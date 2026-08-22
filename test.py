@@ -1,6 +1,34 @@
-from tools.tavily_tool import tavily_search
-from tools.flight_tool import search_flights
-#res = tavily_search("Best hotels in India")
-#print(res)
-res=search_flights("plan a 7 days Nepal trip from Bangaladesh")
-print(res)
+from backend import run_travel_agent
+
+
+user_input = input(
+    "Enter travel request: "
+)
+
+
+response = run_travel_agent(
+    user_input
+)
+
+
+print("\n")
+print("=" * 70)
+print("FINAL TRAVEL PLAN")
+print("=" * 70)
+
+print(
+    response["answer"]
+)
+
+print("\n")
+print("=" * 70)
+print("THREAD ID")
+print("=" * 70)
+
+print(
+    response["thread_id"]
+)
+
+print("\n")
+print("LLM Calls:",
+      response["llm_calls"])
