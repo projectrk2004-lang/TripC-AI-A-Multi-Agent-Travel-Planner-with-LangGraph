@@ -24,7 +24,7 @@ postgresql://ramkumar:tfxnThXY82gOnwFX7WXCL4jTpJjmDqKC@dpg-da4ngbe417fc73br7u6g-
 
 COMPLTRE PROJECT OVERVIEW
 
-# ✈️ TripMate AI — A Multi-Agent Travel Planner with LangGraph
+# ✈️ TripC-AI — A Multi-Agent Travel Planner with LangGraph
 
 An open-source AI travel planner that turns a natural-language trip request into a practical travel plan with flight suggestions, hotel ideas, and a day-by-day itinerary. The project uses a multi-agent workflow built with LangGraph, LangChain, and FastAPI.
 
