@@ -18,8 +18,6 @@ conda activate travel
 pip install -r requirements.txt
 ```
 
-postgresql://ramkumar:tfxnThXY82gOnwFX7WXCL4jTpJjmDqKC@dpg-da4ngbe417fc73br7u6g-a.oregon-postgres.render.com/agentmemory_pedl
-
 
 
 COMPLTRE PROJECT OVERVIEW
@@ -90,9 +88,9 @@ Create a .env file in the project root with the following variables:
 
 ```env
 DATABASE_URL=postgresql://user:password@localhost:5432/travel_db
-GROQ_API_KEY=your_groq_api_key
-AVIATIONSTACK_API_KEY=your_aviationstack_api_key
-TAVILY_API_KEY=your_tavily_api_key
+GROQ_API_KEY=my_groq_api_key
+AVIATIONSTACK_API_KEY=my_aviationstack_api_key
+TAVILY_API_KEY=my_tavily_api_key
 DEFAULT_ORIGIN_IATA=DAC
 ```
 
